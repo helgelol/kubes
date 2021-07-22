@@ -1,5 +1,4 @@
 <script>
-  import { svg_element } from 'svelte/internal';
 </script>
 
 <div class="my-8 mx-auto">
@@ -19,7 +18,6 @@
     color: white;
   }
   .gitlab:hover {
-    /* color: linear-gradient(90deg, #e24329 0%, #fc6d26 50%, #fca326 100%); */
     color: #fc6d26;
   }
   .twitter {
