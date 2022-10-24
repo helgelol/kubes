@@ -3,7 +3,6 @@
   import Person from './Person.svelte';
   import Links from './Links.svelte';
   import ContactForm from './ContactForm.svelte';
-
   import { fade } from 'svelte/transition';
 </script>
 

@@ -1,5 +1,7 @@
 <script lang="ts">
   import FrontPage from './components/FrontPage.svelte';
+  import Router from 'svelte-spa-router';
+  import routes from './routes/routes.js';
 </script>
 
 <svelte:head>
@@ -27,6 +29,12 @@
 </svelte:head>
 <main>
   <FrontPage />
+  <Router {routes} />
+  <ul>
+    <li><a href="#/">Home</a></li>
+    <li><a href="#/resume">resume</a></li>
+    <li><a href="#/does/not/exist">Not found</a></li>
+  </ul>
 </main>
 
 <style global lang="postcss">
