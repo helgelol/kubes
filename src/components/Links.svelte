@@ -3,13 +3,13 @@
 </script>
 
 <div class="my-8 mx-auto">
-  <a href="https://github.com/helgelol/" target="_blank">
+  <a href="https://github.com/helgelol/" target="_blank" rel="noreferrer">
     <i class="fab fa-github text-4xl mx-6 github" />
   </a>
-  <a href="https://twitter.com/helgelol" target="_blank">
+  <a href="https://twitter.com/helgelol" target="_blank" rel="noreferrer">
     <i class="fab fa-twitter text-4xl mx-6 twitter" /></a
   >
-  <a href="https://www.linkedin.com/in/helgelol/" target="_blank">
+  <a href="https://www.linkedin.com/in/helgelol/" target="_blank" rel="noreferrer">
     <i class="fab fa-linkedin-in text-4xl mx-6 linkedin" />
   </a>
 </div>
