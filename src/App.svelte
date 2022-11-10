@@ -1,5 +1,4 @@
 <script lang="ts">
-  import FrontPage from './components/FrontPage.svelte';
   import Router from 'svelte-spa-router';
   import routes from './routes/routes.js';
 </script>
@@ -28,13 +27,8 @@
   </script>
 </svelte:head>
 <main>
-  <FrontPage />
+  <!-- <a href="#/">Home</a> - <a href="#/resume">Resume</a> -->
   <Router {routes} />
-  <ul>
-    <li><a href="#/">Home</a></li>
-    <li><a href="#/resume">resume</a></li>
-    <li><a href="#/does/not/exist">Not found</a></li>
-  </ul>
 </main>
 
 <style global lang="postcss">
@@ -47,8 +41,8 @@
     width: 100%;
     height: 100vh;
     color: #fff;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    /* background-size: 400% 400%; */
     position: relative;
     animation: change 20s ease-in-out infinite;
     font-family: 'Nunito', sans-serif;

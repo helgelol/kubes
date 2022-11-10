@@ -1,7 +1,9 @@
 <script lang="ts">
-  import Router from 'svelte-spa-router';
+  import FrontPage from '../components/FrontPage.svelte';
 
   import { fade } from 'svelte/transition';
 </script>
 
-<div in:fade={{ delay: 500 }}>This is home</div>
+<div in:fade={{ delay: 500 }}>
+  <FrontPage />
+</div>
