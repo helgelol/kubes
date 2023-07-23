@@ -1,6 +1,6 @@
 <script lang="ts">
-  const myName = 'Helge Falch'; 
-  const myTitle = 'System Developer';
+  const myName = 'Helge Falch';
+  const myTitle = 'Software Developer';
 </script>
 
 <div class="person">

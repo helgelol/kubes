@@ -23,7 +23,6 @@
       />
       <div class="w-full mt-6">
         <textarea
-          type="text"
           name="contactText"
           placeholder="Message"
           maxlength="240"
